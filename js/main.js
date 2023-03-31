@@ -34,13 +34,13 @@ const imgSlider = (img, color, tipo) => {
         case 'red':
             titulo.innerHTML = 'Bock';
             subtitulo.innerHTML = 'Cerveza de cuerpo robusto';
-            parrafo.innerHTML = 'Intenso sabor tostado y acaramelado. Su pronunciado amargor es equilibrado por el dulzor de las tres variedades de malta con las que se elabora.';
+            parrafo.innerHTML = '<br> Intenso   sabor    tostado y acaramelado. Su pronunciado amargor es equilibrado por el dulzor de las tres variedades de malta con las que se elabora.';
 
             break;
 
         case 'doblemalta':
             titulo.innerHTML = 'Doble malta';
-            subtitulo.innerHTML = 'Cerveza con notas de cereal, leve dulzor y amargor';
+            subtitulo.innerHTML = 'Ntas de cereal, leve dulzor y amargor';
             parrafo.innerHTML = 'El suelo de nuestra querida Argentina esta vez nos regala dos tipos de maltas, Pilsen y Carapils, que le dan vida a esta Quilmes Doble Malta.Es nuestro orgullo. Disfrutala el doble.';
 
             break;

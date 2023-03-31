@@ -1,0 +1,125 @@
+* {
+    font-family: 'Lobster', cursive;
+    font-size: medium;
+}
+
+
+/*Nav*/
+.navbar {
+    background-color: white;
+}
+
+.navbar .logo {
+    max-width: 6rem;
+}
+
+/*endNav*/
+
+
+/*main*/
+
+.box-contain {
+    min-height: 60vh;
+}
+
+.col-texto {
+    min-height: 0%;
+    width: auto;
+}
+
+.col-lata img {
+    max-height: 25em;
+}
+
+
+/*latitas footer*/
+
+.box-latitas {
+    margin-left: -1rem;
+    margin-top: 2rem;
+}
+
+.box-latitas ul {
+    list-style: none;
+}
+
+.box-latitas ul li img {
+    max-height: 8rem;
+    padding: 1rem;
+    cursor: pointer;
+    opacity: .85;
+}
+
+.box-latitas ul li img:hover {
+    transform: translateY(-10%);
+    opacity: 1;
+}
+
+
+
+/*end latitas*/
+
+
+.otra-clase .row {
+    height: 20rem;
+}
+
+
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(11, 163, 239);
+    clip-path: circle(60em at right 80em);
+    z-index: -1;
+    animation: mover-fondo 8s ease-in-out infinite;
+}
+
+@keyframes mover-fondo {
+
+    0% {
+        transform: translateX(0%);
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateX(5%);
+        transform: translateY(5%);
+
+    }
+
+    100% {
+        transform: translateX(0%);
+        transform: translateY(0%);
+
+    }
+}
+
+
+@media (max-width: 992px) 
+{
+    .circle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgb(11, 163, 239);
+        clip-path: circle(25em at center 10em);
+        z-index: -1;
+        animation: mover-fondo 8s ease-in-out infinite;
+    }
+
+    .box-containt {
+        color: antiquewhite;
+    }
+
+    .box-latitas ul li img {
+        max-height: 15vh;
+    }
+
+    
+}
