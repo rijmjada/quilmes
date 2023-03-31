@@ -63,7 +63,7 @@
 
                     <h1 class="titulo display-1 ">Clásica</h1>
                     <h3 class="subtitulo"> <i>Cerveza dorada y equlibrada</i> </h3>
-                    <p class="parrafo">
+                    <p class="parrafo" style="font-size: large;">
                         La cerveza de los argentinos por excelencia. Es una típica cerveza lager perfectamente
                         equilibrada, transparente dorada, buen nivel de espuma y sabor. Para hacerla utilizamos sólo
                         ingredientes naturales que crecen en los campos de Argentina
@@ -97,48 +97,38 @@
 
     </section>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-        crossorigin="anonymous"></script>
-
-    <!--MyJS-->
     <script src="js/main.js"></script>
 
     <script>
 
-        window.addEventListener("resize", function () {
+        /*
+        position: absolute;
+        top: 20%;
+        right: auto;
+        left: auto;
+        
 
+        window.addEventListener("resize", function () {
 
             let texto = document.querySelector('#textBox');
             let lata = document.querySelector('.imgBox');
             let latitas = document.querySelector('.latas-box-ul');
 
-
-
             if (window.matchMedia("(max-width: 1000px)").matches) {
 
                 texto.style.height = '1px';
                 texto.style.visibility = 'hidden';
-              
-
-
+                lata.style.position = 'absolute';
+                lata.style.top = '20%';
+                lata.style.right = 'auto';
+                lata.style.left = 'auto';
             }
             else {
-
                 texto.style = '16px';
-
-
             }
         });
+*/
 
-        /*
-           latitas.classList.remove('d-flex')
-                latitas.classList.remove('justify-content-center');
-                latitas.classList.remove('align-items-center');*/
-
-        /*lata.classList.replace('d-flex justify-content-center align-items-center ms-2','imgBox col-4');
-        latitas.classList.replace('d-flex justify-content-center align-items-center mt-5','latas-box-ul d-flex justify-content-center align-items-center');*/
     </script>
 
 </body>
