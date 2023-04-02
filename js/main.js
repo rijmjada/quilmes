@@ -18,7 +18,7 @@ const imgSlider = (img, color, tipo) => {
     switch (tipo) {
 
         case 'clasica':
-            titulo.innerHTML = 'Clasica';
+            titulo.innerHTML = 'Clásica';
             subtitulo.innerHTML = 'Cerveza dorada y equlibrada';
             parrafo.innerHTML = 'La cerveza de los argentinos por excelencia. Es una típica cerveza lager perfectamente equilibrada, transparente dorada, buen nivel de espuma y sabor. Para hacerla utilizamos sólo ingredientes naturales que crecen en los campos de Argentina';
 
@@ -40,7 +40,7 @@ const imgSlider = (img, color, tipo) => {
 
         case 'doblemalta':
             titulo.innerHTML = 'Doble malta';
-            subtitulo.innerHTML = 'Ntas de cereal, leve dulzor y amargor';
+            subtitulo.innerHTML = 'Notas de cereal, leve dulzor y amargor';
             parrafo.innerHTML = 'El suelo de nuestra querida Argentina esta vez nos regala dos tipos de maltas, Pilsen y Carapils, que le dan vida a esta Quilmes Doble Malta.Es nuestro orgullo. Disfrutala el doble.';
 
             break;
