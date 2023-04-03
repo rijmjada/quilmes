@@ -9,6 +9,16 @@
     background-color: white;
 }
 
+.nav-link {
+    color: lightslategray;
+}
+
+
+.nav-link:hover{
+    color: black;
+}
+
+
 .navbar .logo {
     max-width: 6rem;
 }
@@ -20,6 +30,7 @@
 
 .box-contain {
     min-height: 60vh;
+    
 }
 
 .col-texto {
@@ -27,8 +38,10 @@
     width: auto;
 }
 
+
 .col-lata img {
     max-height: 60vh;
+
 }
 
 
@@ -48,6 +61,7 @@
     padding: 1rem;
     cursor: pointer;
     opacity: .85;
+    
 }
 
 .box-latitas ul li img:hover {
@@ -124,3 +138,23 @@
     
 }
 
+
+
+.links-redes {
+    position: fixed;
+    top: 50;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bi {
+    font-size: x-large;
+    color: lightslategray;
+    cursor: pointer;
+}
+
+.bi:hover {
+    color: black;
+}
