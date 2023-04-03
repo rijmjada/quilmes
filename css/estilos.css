@@ -135,9 +135,13 @@
         max-height: 15vh;
     }
 
+    .links-redes {
+        bottom: 20%;
+        right: 5%;
+    }
+
     
 }
-
 
 
 .links-redes {
@@ -151,8 +155,8 @@
 
 .bi {
     font-size: x-large;
-    color: lightslategray;
-    cursor: pointer;
+    color: rgb(107, 129, 151);
+    cursor: pointer; 
 }
 
 .bi:hover {
