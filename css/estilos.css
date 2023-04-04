@@ -179,7 +179,7 @@ body {
     }
 }
 
-@media (max-width: 778px) {
+@media (max-width: 768px) {
     .col-texto .box-texto {
         font-size: x-small;
         background-color: transparent;
@@ -190,9 +190,5 @@ body {
         width: 50%;
     }
 
-    .box-2 .separador {
-
-        left: 50%;
-
-    }
+   
 }
