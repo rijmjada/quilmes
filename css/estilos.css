@@ -126,7 +126,7 @@ body {
     min-width: 100%;
 }
 
-.col-texto .box-texto{
+.col-texto .box-texto {
     width: 35%;
     height: 70%;
     position: absolute;
@@ -177,9 +177,10 @@ body {
     .parrafo {
         font-size: small;
     }
+}
 
-    
-    .col-texto .box-texto{
+@media (max-width: 778px) {
+    .col-texto .box-texto {
         font-size: x-small;
         background-color: transparent;
         text-align: right;
@@ -188,5 +189,10 @@ body {
         height: 50%;
         width: 50%;
     }
-    
+
+    .box-2 .separador {
+
+        left: 50%;
+
+    }
 }
