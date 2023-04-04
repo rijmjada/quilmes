@@ -179,7 +179,7 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .col-texto .box-texto {
         font-size: x-small;
         background-color: transparent;
