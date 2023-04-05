@@ -31,7 +31,7 @@ const imgSlider = (img, color, tipo) => {
 
             break;
 
-        case 'red':
+        case 'bock':
             titulo.innerHTML = 'Bock';
             subtitulo.innerHTML = 'Cerveza de cuerpo robusto';
             parrafo.innerHTML = '<br> Intenso   sabor    tostado y acaramelado. Su pronunciado amargor es equilibrado por el dulzor de las tres variedades de malta con las que se elabora.';
@@ -39,9 +39,23 @@ const imgSlider = (img, color, tipo) => {
             break;
 
         case 'doblemalta':
-            titulo.innerHTML = 'Doble malta';
+            titulo.innerHTML = 'Doble Malta';
             subtitulo.innerHTML = 'Notas de cereal, leve dulzor y amargor';
             parrafo.innerHTML = 'El suelo de nuestra querida Argentina esta vez nos regala dos tipos de maltas, Pilsen y Carapils, que le dan vida a esta Quilmes Doble Malta.Es nuestro orgullo. Disfrutala el doble.';
+
+            break;
+
+        case '00':
+            titulo.innerHTML = 'Cero Alcohol';
+            subtitulo.innerHTML = 'Fresca y de cuerpo liviano.';
+            parrafo.innerHTML = '<br>Así es la Quilmes 0,0% una cerveza rubia, elaborada con ingredientes naturales y sin alcohol.';
+
+            break;
+
+        case 'red':
+            titulo.innerHTML = 'Red Lager';
+            subtitulo.innerHTML = 'Cerveza roja y acaramelada';
+            parrafo.innerHTML = 'Cerveza de cuerpo medio, color cobrizo y acaramelada. Esta variedad debe sus características al particular proceso de caramelización de las maltas con las que se elabora.';
 
             break;
 
