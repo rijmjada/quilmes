@@ -26,10 +26,7 @@ body {
 /*endNav*/
 
 
-/*main*/
-.col-lata img {
-    max-height: 20rem;
-}
+
 
 
 /*latitas*/
@@ -188,6 +185,21 @@ body {
 }
 
 
+/*main*/
+.box-containt {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-lata img {
+    height: 60vh;
+}
+
+
+
 @media (max-width: 992px) {
 
     .circle {
@@ -235,3 +247,5 @@ body {
 
 
 }
+
+
