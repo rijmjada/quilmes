@@ -27,8 +27,6 @@ body {
 
 
 
-
-
 /*latitas*/
 
 .box-latitas {
@@ -41,7 +39,7 @@ body {
 }
 
 .box-latitas ul li img {
-    max-height: 8rem;
+    height: 7rem;
     padding: 0.5rem;
     cursor: pointer;
     opacity: .85;
@@ -68,6 +66,7 @@ body {
     backdrop-filter: blur(2rem);
     border-radius: 5rem;
     padding: .5rem;
+    box-shadow: 1px 3px 5px 0px black;
 }
 
 .bi {
@@ -199,7 +198,7 @@ body {
 }
 
 .col-lata img {
-    height: 60vh;
+    height: 25em;
 }
 
 
@@ -224,7 +223,11 @@ body {
 
 
     .box-latitas ul li img {
-        max-height: 10vh;
+        max-height: 20vh;
+    }
+
+    .col-lata img {
+        height: 20em;
     }
 
     .parrafo {
@@ -244,7 +247,18 @@ body {
         width: 50%;
     }
 
+    
+    .box-latitas ul li img {
+        max-height: 5rem;
+    }
 
+    .parrafo {
+        font-size: small;
+    }
+
+    .col-lata img {
+        height: 15em;
+    }
 }
 
 

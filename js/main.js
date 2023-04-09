@@ -34,7 +34,7 @@ const imgSlider = (img, color, tipo) => {
         case 'bock':
             titulo.innerHTML = 'Bock';
             subtitulo.innerHTML = 'Cerveza de cuerpo robusto';
-            parrafo.innerHTML = '<br> Intenso   sabor    tostado y acaramelado. Su pronunciado amargor es equilibrado por el dulzor de las tres variedades de malta con las que se elabora.';
+            parrafo.innerHTML = 'Intenso   sabor    tostado y acaramelado. Su pronunciado amargor es equilibrado por el dulzor de las tres variedades de malta con las que se elabora.';
 
             break;
 
