@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+    
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container ">
+            <a href="#"> <img class="logo" src="img/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+
+                <ul class="navbar-nav ms-auto text-center">
+
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="links-redes">
+        <a href="https://www.facebook.com/quilmescerveza/" target="_blank"> <i class="bi bi-facebook"></i> </a>
+        <a href="https://www.instagram.com/quilmescerveza" target="_blank"> <i class="bi bi-instagram"></i> </a>
+        <a href="https://twitter.com/Quilmes_Cerveza" target="_blank"> <i class="bi bi-twitter"></i> </a>
+    </div>
+    <main>
+
+        <!--Circle animation-->
+        <div class="circle"></div>
+
+
+        <!--Principal-->
+        <div class="container-fluid box-1">
+
+            <div class="row text-center mt-1 mx-auto box-containt">
+
+                <div class="col-lg-6 | col-md-6 | col-sm-12 mt-3 ">
+                    <h1 class="titulo display-1 ">Clásica</h1>
+                    <h3 class="subtitulo"> Cerveza dorada y equlibrada </h3>
+                    <p class="parrafo">
+                        La cerveza de los argentinos por excelencia. Es una típica cerveza lager perfectamente
+                        equilibrada, transparente dorada, buen nivel de espuma y sabor. Para hacerla utilizamos sólo
+                        ingredientes naturales que crecen en los campos de Argentina
+                    </p>
+
+                    <div class="box-latitas mt-4 ">
+
+                        <ul class="d-flex justify-content-center align-items-center">
+
+                            <li><img src="img/img2/CLASICA-op-removebg-preview.png"
+                                    onclick="imgSlider('img/img2/CLASICA-op-removebg-preview.png','rgb(11, 163, 239)','clasica')"
+                                    alt="rubia">
+                            </li>
+                            <li><img src="img/img2/STOUT__1_-removebg-preview.png"
+                                    onclick="imgSlider('img/img2/STOUT__1_-removebg-preview.png','rgb(49, 51, 52)','stout')"
+                                    alt="stout">
+                            </li>
+
+                            <li><img src="img/img2/BOCK__1_-removebg-preview.png"
+                                    onclick="imgSlider('img/img2/BOCK__1_-removebg-preview.png','rgb(133, 25, 25)','bock')"
+                                    alt="red">
+                            </li>
+
+                            <li><img src="img/img2/red-lager-removebg-preview.png"
+                                    onclick="imgSlider('img/img2/red-lager-removebg-preview.png','rgb(216, 76, 0)','red')"
+                                    alt="red-lager">
+                            </li>
+
+                            <li><img src="img/img2/00-removebg-preview.png"
+                                    onclick="imgSlider('img/img2/00-removebg-preview.png','#82898f','00')" alt="">
+                            </li>
+
+                            <li><img src="img/img2/DM_410_N-removebg-preview.png"
+                                    onclick="imgSlider('img/doblemalta.png','#D4AF37','doblemalta')" alt="doblemalta">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mt-5 col-md-6 text-center col-lata ">
+                    <img src="img/img2/CLASICA-op-removebg-preview.png" alt="rubia" class="latita">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!--Gracias Carousel-->
+        <div id="carouselExampleAutoplaying" data-bs-interval="2800" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="img/carousel/1millon.pngg.png" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/carousel/pizzeros.png" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/carousel/fian.png" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/carousel/chori.png" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/carousel/costa.png" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/carousel/ciudad.png" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/carousel/mani.png" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/carousel/mozos.png" class="d-block w-100" alt="...">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <!--Nuestros Lugares-->
+        <div class="box-2 row g-0  text-white ">
+            <div class="col-md-6 | col-sm-12 | col-texto ">
+                <div class="box-texto">
+                    <h3 class="display-2">Nuestros Lugares</h3>
+
+                    <div class="separador"></div>
+
+                    <p>Además de la Quilmes que tomás en tu casa queremos que disfrutes la que servimos en la
+                        nuestra, llega directamente de la cervecería.
+                    <div class="btn btn-success">Ver mas</div>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 | col-sm-12 | col-img">
+                <img src="img/1.png" class="img-fluid" alt="">
+            </div>
+        </div>
+
+
+        <!--Video Youtube-->
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/d194HTo_Px4" title="Coincidencias" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+
+
+        <!--Banner-->
+        <div class="banner">
+            <img src="img/banner.jpg" alt="">
+        </div>
+
+    </main>
+
+    
+    <!--Footer-->
+    <footer class="bg-primary mx-auto p-4">
+
+        <div class="text-center">
+            <small class="text-light fs-5">
+                &copy;2023 - Diego Ormeño, hecho con fines educativos.
+            </small>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+
+
+</html>
