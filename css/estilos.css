@@ -151,6 +151,7 @@ body {
 }
 
 .box-2 .btn {
+    margin-top: 1em;
     border-radius: 8rem;
     background-color: rgb(237, 201, 0);
     color: black;
