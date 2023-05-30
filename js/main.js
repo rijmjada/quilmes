@@ -61,16 +61,5 @@ const imgSlider = (img, color, tipo) => {
 
     }
 
-    // const texto = document.querySelector('.textBox');
-    // const lata = document.querySelector('.imgBox');
-    // const latitas = document.querySelector('.latas-box-ul');
-
-
-    // texto.style.height = '1px';
-    // texto.style.height = '1px';
-    // texto.style.visibility = 'hidden';
-
-    // lata.className = 'd-flex justify-content-center align-items-center ms-2';
-    // latitas.className = 'd-flex justify-content-center align-items-center mt-5';
 }
 
